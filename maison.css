@@ -1,0 +1,100 @@
+
+ *{
+     margin: 0;
+     padding:0;
+ }
+header {
+    background-image: url(f3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+   height: 400px;
+  
+
+}
+.entete{
+    
+    display: flex;
+    justify-content: space-between;
+  
+}
+h1{
+    margin-left: 5px;
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.gauche{
+    margin-top: 30px;
+    font-size: 30px;
+    margin-right: 5px;
+}
+.a{
+    width: 30%;
+    cursor: pointer;
+}
+.faz{
+    background-color: azure;
+    padding-top: 40px;
+}
+.im1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.im2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+button{
+    width: 80px;
+}
+footer{
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+@media screen and (max-width:638px) {
+    header {
+    
+      height: 200px;
+    
+    }
+
+    .faz{
+         
+   
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+   
+
+
+
+
+
+
+
+
+    
